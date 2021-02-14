@@ -1,0 +1,2 @@
+spider-GIN-#>2021/02/14 19:51:09 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613303469062482000}
+spider-GIN-#>2021/02/14 19:51:09 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"listen tcp: address 8000: missing port in address: server start err:%!v(MISSING)","time":1613303469063009000}
