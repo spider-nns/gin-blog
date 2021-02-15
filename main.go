@@ -72,7 +72,7 @@ func setupLogger() error {
 }
 
 // @title gin-blog
-// @version V1
+// @version v1
 // @description Go 语言编程之旅:一起用Go写项目
 // @termsOfService https://github.com/spider-nns/gin-blog
 func main() {

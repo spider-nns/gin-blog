@@ -12,3 +12,19 @@ spider-GIN-#>2021/02/15 15:59:33 {"callers":["/Users/spider/GolandProjects/http-
 spider-GIN-#>2021/02/15 16:08:43 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613376523268573000}
 spider-GIN-#>2021/02/15 16:13:15 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613376795731893000}
 spider-GIN-#>2021/02/15 16:16:35 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613376995635507000}
+spider-GIN-#>2021/02/15 19:27:12 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613388432319764000}
+spider-GIN-#>2021/02/15 19:27:36 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs:State必须是[0 1]中的一个","time":1613388456289570000}
+spider-GIN-#>2021/02/15 19:28:00 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613388480400827000}
+spider-GIN-#>2021/02/15 19:39:52 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613389192210571000}
+spider-GIN-#>2021/02/15 22:42:10 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613400130956533000}
+spider-GIN-#>2021/02/15 22:50:02 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613400602695221000}
+spider-GIN-#>2021/02/15 22:52:19 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613400739875674000}
+spider-GIN-#>2021/02/15 22:58:15 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613401095893763000}
+spider-GIN-#>2021/02/15 23:00:07 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613401207222453000}
+spider-GIN-#>2021/02/15 23:00:15 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BingAndValid errs: CreatedBy为必填字段","time":1613401215754201000}
+spider-GIN-#>2021/02/15 23:00:36 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"svc.CreateTag err: Error 1054: Unknown column 'create_on' in 'field list'","time":1613401236982977000}
+spider-GIN-#>2021/02/15 23:01:31 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613401291228018000}
+spider-GIN-#>2021/02/15 23:02:45 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BingAndValid errs: CreatedBy为必填字段","time":1613401365427518000}
+spider-GIN-#>2021/02/15 23:03:45 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BingAndValid errs: CreatedBy为必填字段","time":1613401425694525000}
+spider-GIN-#>2021/02/15 23:08:03 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613401683395419000}
+spider-GIN-#>2021/02/15 23:09:16 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BingAndValid errs: CreatedBy为必填字段","time":1613401756539103000}
