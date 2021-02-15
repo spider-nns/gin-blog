@@ -1,2 +1,14 @@
 spider-GIN-#>2021/02/14 19:51:09 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613303469062482000}
 spider-GIN-#>2021/02/14 19:51:09 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"listen tcp: address 8000: missing port in address: server start err:%!v(MISSING)","time":1613303469063009000}
+spider-GIN-#>2021/02/15 15:35:42 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613374542390095000}
+spider-GIN-#>2021/02/15 15:35:42 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"listen tcp: address 8000: missing port in address: server start err:%!v(MISSING)","time":1613374542390609000}
+spider-GIN-#>2021/02/15 15:38:10 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613374690069849000}
+spider-GIN-#>2021/02/15 15:38:30 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"listen tcp: address 8000: missing port in address: server start err:%!v(MISSING)","time":1613374710013149000}
+spider-GIN-#>2021/02/15 15:38:47 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613374727413310000}
+spider-GIN-#>2021/02/15 15:38:47 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"listen tcp: address 8000: missing port in address: server start err:%!v(MISSING)","time":1613374727413591000}
+spider-GIN-#>2021/02/15 15:40:06 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613374806062408000}
+spider-GIN-#>2021/02/15 15:51:30 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613375490122448000}
+spider-GIN-#>2021/02/15 15:59:33 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613375973275155000}
+spider-GIN-#>2021/02/15 16:08:43 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613376523268573000}
+spider-GIN-#>2021/02/15 16:13:15 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613376795731893000}
+spider-GIN-#>2021/02/15 16:16:35 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613376995635507000}

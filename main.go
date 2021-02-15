@@ -28,30 +28,6 @@ func init() {
 	}
 }
 
-func main() {
-	//dsn := "spider:dB&x(oNt1lR)@tcp(2c:59999)/go?charset=utf8mb4&parseTime=True&loc=Local"
-	//open, err := gorm.Open("mysql", dsn)
-	//if err != nil {
-	//	println(err)
-	//}
-	//defer open.Close()
-	router := routers.NewRouter()
-	server := &http.Server{
-		Addr:              global.ServerSetting.HttpPort,
-		Handler:           router,
-		ReadTimeout:       global.ServerSetting.ReadTimeout,
-		ReadHeaderTimeout: global.ServerSetting.ReadTimeout,
-		WriteTimeout:      global.ServerSetting.WriteTimeout,
-		MaxHeaderBytes:    1 << 20,
-	}
-	global.Logger.Infof("%s: http-gin/%s", "spider", "gin-blog")
-	err := server.ListenAndServe()
-	if err != nil {
-		global.Logger.Errorf("%s: server start err:%v", err)
-
-	}
-}
-
 //初始化配置读取
 func setupSetting() error {
 	s, err := setting.NewSetting()
@@ -74,7 +50,6 @@ func setupSetting() error {
 	global.ServerSetting.WriteTimeout *= time.Second
 	return nil
 }
-
 func setupDBEngine() error {
 	var err error
 	global.DBEngine, err = model.NewDBEngine(global.DatabaseSetting)
@@ -94,4 +69,28 @@ func setupLogger() error {
 				LocalTime: true,
 			}, "spider-GIN-#>", log.LstdFlags).WithCaller(2)
 	return nil
+}
+
+// @title gin-blog
+// @version V1
+// @description Go 语言编程之旅:一起用Go写项目
+// @termsOfService https://github.com/spider-nns/gin-blog
+func main() {
+	router := routers.NewRouter()
+	server := &http.Server{
+		Addr:              global.ServerSetting.HttpPort,
+		Handler:           router,
+		ReadTimeout:       global.ServerSetting.ReadTimeout,
+		ReadHeaderTimeout: global.ServerSetting.ReadTimeout,
+		WriteTimeout:      global.ServerSetting.WriteTimeout,
+		MaxHeaderBytes:    1 << 20,
+	}
+	global.Logger.Infof("%s: http-gin/%s", "spider", "gin-blog")
+	err := server.ListenAndServe()
+	//
+	//url := ginSwagger.URL("xxx")
+	//router.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler, url))
+	if err != nil {
+		global.Logger.Errorf("%s: server start err:%v", err)
+	}
 }
