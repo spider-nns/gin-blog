@@ -37,13 +37,13 @@
                     {
                         "type": "integer",
                         "description": "页码",
-                        "name": "page",
+                        "name": "pageNo",
                         "in": "query"
                     },
                     {
                         "type": "integer",
                         "description": "每页数量",
-                        "name": "page_size",
+                        "name": "pageSize",
                         "in": "query"
                     }
                 ],
@@ -330,7 +330,7 @@
                     {
                         "type": "integer",
                         "description": "页码",
-                        "name": "page",
+                        "name": "pageNo",
                         "in": "query"
                     },
                     {
@@ -575,11 +575,11 @@
                 "cover_image_url": {
                     "type": "string"
                 },
-                "create_on": {
-                    "type": "integer"
-                },
                 "created_by": {
                     "type": "string"
+                },
+                "created_on": {
+                    "type": "integer"
                 },
                 "deleted_on": {
                     "type": "integer"
@@ -625,11 +625,11 @@
         "model.Tag": {
             "type": "object",
             "properties": {
-                "create_on": {
-                    "type": "integer"
-                },
                 "created_by": {
                     "type": "string"
+                },
+                "created_on": {
+                    "type": "integer"
                 },
                 "deleted_on": {
                     "type": "integer"

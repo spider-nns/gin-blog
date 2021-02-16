@@ -25,3 +25,7 @@ func (s StrTo) MustUInt32() uint32 {
 	v, _ := s.UInt32()
 	return v
 }
+func (s StrTo) MustUInt8() uint8 {
+	v, _ := strconv.Atoi(s.String())
+	return uint8(v)
+}

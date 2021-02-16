@@ -28,3 +28,35 @@ spider-GIN-#>2021/02/15 23:02:45 {"callers":["/Users/spider/GolandProjects/http-
 spider-GIN-#>2021/02/15 23:03:45 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BingAndValid errs: CreatedBy为必填字段","time":1613401425694525000}
 spider-GIN-#>2021/02/15 23:08:03 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613401683395419000}
 spider-GIN-#>2021/02/15 23:09:16 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BingAndValid errs: CreatedBy为必填字段","time":1613401756539103000}
+spider-GIN-#>2021/02/15 23:58:36 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613404716664150000}
+spider-GIN-#>2021/02/15 23:59:55 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BingAndValid errs: Name为必填字段,CreatedBy为必填字段","time":1613404795651347000}
+spider-GIN-#>2021/02/16 00:05:40 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613405140056004000}
+spider-GIN-#>2021/02/16 00:05:47 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BingAndValid errs: Name为必填字段,CreatedBy为必填字段","time":1613405147136203000}
+spider-GIN-#>2021/02/16 00:10:06 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613405406355333000}
+spider-GIN-#>2021/02/16 00:10:09 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BingAndValid errs: Name为必填字段,CreatedBy为必填字段","time":1613405409595251000}
+spider-GIN-#>2021/02/16 11:51:36 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613447496754034000}
+spider-GIN-#>2021/02/16 12:11:07 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613448667840174000}
+spider-GIN-#>2021/02/16 12:12:51 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613448771795373000}
+spider-GIN-#>2021/02/16 12:14:50 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: Name为必填字段,State为必填字段","time":1613448890310580000}
+spider-GIN-#>2021/02/16 12:15:48 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State为必填字段","time":1613448948839199000}
+spider-GIN-#>2021/02/16 12:16:07 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State为必填字段","time":1613448967092818000}
+spider-GIN-#>2021/02/16 12:16:55 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613449015113188000}
+spider-GIN-#>2021/02/16 12:17:05 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613449025015251000}
+spider-GIN-#>2021/02/16 12:17:31 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State为必填字段","time":1613449051770556000}
+spider-GIN-#>2021/02/16 12:17:42 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State为必填字段","time":1613449062575002000}
+spider-GIN-#>2021/02/16 12:17:58 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State为必填字段","time":1613449078100663000}
+spider-GIN-#>2021/02/16 12:18:05 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State为必填字段","time":1613449085280083000}
+spider-GIN-#>2021/02/16 12:18:18 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State为必填字段","time":1613449098077652000}
+spider-GIN-#>2021/02/16 12:18:24 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State为必填字段","time":1613449104092607000}
+spider-GIN-#>2021/02/16 12:19:25 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613449165924397000}
+spider-GIN-#>2021/02/16 12:20:19 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State为必填字段","time":1613449219434359000}
+spider-GIN-#>2021/02/16 12:21:05 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State为必填字段","time":1613449265729669000}
+spider-GIN-#>2021/02/16 12:26:48 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613449608662888000}
+spider-GIN-#>2021/02/16 12:27:06 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State为必填字段","time":1613449626259467000}
+spider-GIN-#>2021/02/16 12:27:33 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State为必填字段","time":1613449653442511000}
+spider-GIN-#>2021/02/16 12:27:56 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State为必填字段","time":1613449676109744000}
+spider-GIN-#>2021/02/16 12:30:25 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613449825490063000}
+spider-GIN-#>2021/02/16 12:30:35 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State为必填字段","time":1613449835180234000}
+spider-GIN-#>2021/02/16 12:31:41 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: Name为必填字段,State为必填字段,ModifiedBy为必填字段","time":1613449901003548000}
+spider-GIN-#>2021/02/16 12:32:25 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"info","message":"spider: http-gin/gin-blog","time":1613449945313439000}
+spider-GIN-#>2021/02/16 12:32:33 {"callers":["/Users/spider/GolandProjects/http-gin/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State为必填字段,ModifiedBy为必填字段","time":1613449953704013000}

@@ -25,10 +25,10 @@ definitions:
         type: string
       cover_image_url:
         type: string
-      create_on:
-        type: integer
       created_by:
         type: string
+      created_on:
+        type: integer
       deleted_on:
         type: integer
       desc:
@@ -58,10 +58,10 @@ definitions:
     type: object
   model.Tag:
     properties:
-      create_on:
-        type: integer
       created_by:
         type: string
+      created_on:
+        type: integer
       deleted_on:
         type: integer
       id:
@@ -112,11 +112,11 @@ paths:
         type: integer
       - description: 页码
         in: query
-        name: page
+        name: pageNo
         type: integer
       - description: 每页数量
         in: query
-        name: page_size
+        name: pageSize
         type: integer
       produces:
       - application/json
@@ -302,7 +302,7 @@ paths:
         type: integer
       - description: 页码
         in: query
-        name: page
+        name: pageNo
         type: integer
       - description: 页大小
         in: query

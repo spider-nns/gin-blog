@@ -29,7 +29,7 @@ func (t Tag) Get(c *gin.Context) {
 //@Produce json
 //@Param name query string false "标签名称" maxLength(100)
 //@Param state query int false "状态" Enum(0,1) default 1
-//@Param page query int false "页码"
+//@Param pageNo query int false "页码"
 //@Param pageSize query int false "页大小"
 //@Success 200 {object} model.TagSwagger "成功"
 //@Failure 400 {object} errcode.Error "请求错误"
@@ -105,7 +105,12 @@ func (t Tag) Create(c *gin.Context) {
 // @Failure 500 {object} errcode.Error "内部错误"
 // @Router /api/v1/tags/{id} [put]
 func (t Tag) Update(c *gin.Context) {
-	param := service.UpdateTagRequest{ID: convert.StrTo(c.Param("id")).MustUInt32()}
+	param := service.UpdateTagRequest{
+		ID:         convert.StrTo(c.Param("id")).MustUInt32(),
+		Name:       c.Param("name"),
+		ModifiedBy: c.Param("modifiedBy"),
+		State:      convert.StrTo(c.Param("state")).MustUInt8(),
+	}
 	response := app.NewResponse(c)
 	valid, errors := app.BindAndValid(c, &param)
 	if !valid {

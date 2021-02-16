@@ -9,11 +9,11 @@ import (
 //分页处理
 
 func GetPage(c *gin.Context) int {
-	page := convert.StrTo(c.Query("page")).MustInt()
-	if page <= 0 {
+	pageNo := convert.StrTo(c.Query("pageNo")).MustInt()
+	if pageNo <= 0 {
 		return 1
 	}
-	return page
+	return pageNo
 }
 func GetPageSize(c *gin.Context) int {
 	pageSize := convert.StrTo(c.Query("pageSize")).MustInt()
