@@ -13,7 +13,7 @@ Database:
   DBType: mysql
   UserName: spider
   Password: dB&x(oNt1lR)
-  Host: 49.232.212.110:59999
+  Host: 2c:59999
   DBName: go
   TablePrefix: blog_
   Charset: utf8mb4
