@@ -323,7 +323,6 @@ paths:
           description: 内部错误
           schema:
             $ref: '#/definitions/errcode.Error'
-      summary: 获取多个标签
     post:
       parameters:
       - description: 标签名称
@@ -365,7 +364,6 @@ paths:
           description: 内部错误
           schema:
             $ref: '#/definitions/errcode.Error'
-      summary: 新增标签
   /api/v1/tags/{id}:
     delete:
       parameters:
@@ -389,7 +387,6 @@ paths:
           description: 内部错误
           schema:
             $ref: '#/definitions/errcode.Error'
-      summary: 删除标签
     put:
       parameters:
       - description: 标签ID
@@ -438,5 +435,4 @@ paths:
           description: 内部错误
           schema:
             $ref: '#/definitions/errcode.Error'
-      summary: 更新标签
 swagger: "2.0"

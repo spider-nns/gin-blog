@@ -312,7 +312,6 @@
                 "produces": [
                     "application/json"
                 ],
-                "summary": "获取多个标签",
                 "parameters": [
                     {
                         "maxLength": 100,
@@ -365,7 +364,6 @@
                 "produces": [
                     "application/json"
                 ],
-                "summary": "新增标签",
                 "parameters": [
                     {
                         "maxLength": 100,
@@ -429,7 +427,6 @@
                 "produces": [
                     "application/json"
                 ],
-                "summary": "更新标签",
                 "parameters": [
                     {
                         "type": "integer",
@@ -501,7 +498,6 @@
                 "produces": [
                     "application/json"
                 ],
-                "summary": "删除标签",
                 "parameters": [
                     {
                         "type": "integer",

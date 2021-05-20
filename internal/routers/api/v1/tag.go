@@ -15,7 +15,7 @@ func NewTag() Tag {
 	return Tag{}
 }
 
-//@Summary 获取单个标签
+//Get @Summary 获取单个标签
 //@Produce json
 //@Param id path string true "标签id"
 //@Success 200 {object} model.TagSwagger "成功"
@@ -25,7 +25,7 @@ func (t Tag) Get(c *gin.Context) {
 
 }
 
-//@Summary 获取多个标签
+//List @Summary 获取多个标签
 //@Produce json
 //@Param name query string false "标签名称" maxLength(100)
 //@Param state query int false "状态" Enum(0,1) default 1
@@ -65,7 +65,7 @@ func (t Tag) List(c *gin.Context) {
 	return
 }
 
-// @Summary 新增标签
+// Create @Summary 新增标签
 // @Produce  json
 // @Param name body string true "标签名称" minlength(3) maxlength(100)
 // @Param state body int false "状态" Enums(0, 1) default(1)
@@ -94,7 +94,7 @@ func (t Tag) Create(c *gin.Context) {
 	return
 }
 
-// @Summary 更新标签
+// Update @Summary 更新标签
 // @Produce  json
 // @Param id path int true "标签ID"
 // @Param name body string false "标签名称" minlength(3) maxlength(100)
@@ -129,7 +129,7 @@ func (t Tag) Update(c *gin.Context) {
 	return
 }
 
-// @Summary 删除标签
+// Delete @Summary 删除标签
 // @Produce  json
 // @Param id path int true "标签ID"
 // @Success 200 {string} string "成功"
